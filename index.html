@@ -30,28 +30,133 @@
         >
           <textarea data-template>
             # React in 30 minutes
-
-            <!-- ###  -->
             -----
-            ###What is react?
-            ###Why use react?
-            ###How does it fit into the modern javascript ecosystem?
-            ###Why should we use it over other front end tools?
-            ###How to think in React
-            ---
-            # Resources
-            ## test 1 - subheading 1
-            ### test 2 - subheading 2
-            -----
-            # Links
-            - [JavaScript library - Wikipedia](https://en.wikipedia.org/wiki/JavaScript_library)
-            - [Is React a Library or a Framework? Here's Why it Matters (freecodecamp.org)](https://www.freecodecamp.org/news/is-react-a-library-or-a-framework/)
-            - [The 40 Best JavaScript Libraries and Frameworks for 2023 (kinsta.com)](https://kinsta.com/blog/javascript-libraries/#:~:text=The%20Most%20Popular%20JavaScript%20Libraries%201%20jQuery%202,Underscore.js%205%20Lodash%206%20Algolia%20Places%207%20Anime.js)
-            - [Why Is React a Library and Next.js a Framework? | Built In](https://builtin.com/software-engineering-perspectives/react-framework)
-            - [State of JavaScript (stateofjs.com)](https://stateofjs.com/en-US)
+            ## React in 30 minutes
+            - What is react?
+            - Why use react?
+            - How does it fit into the modern javascript ecosystem?
+            - Why should we use it over other front end tools?
+            - How to think in React
 
           </textarea>
         </section>
+
+        <section>
+          <h2>React in 30 minutes</h2>
+          <p class="fragment grow">What is react?</p>
+          <p>Why use react?</p>
+          <p>How does it fit into the modern javascript ecosystem?</p>
+          <p>Why should we use it over other front end tools?</p>
+          <p>How to think in React</p>
+        </section>
+        <section>
+          <h2>React in 30 minutes</h2>
+          <p>What is react?</p>
+          <p class="fragment grow">Why use react?</p>
+          <p">How does it fit into the modern javascript ecosystem?</p>
+          <p">Why should we use it over other front end tools?</p>
+          <p">How to think in React</p>
+        </section>
+        <section>
+          <h2>React in 30 minutes</h2>
+          <p>What is react?</p>
+          <p>Why use react?</p>
+          <p class="fragment grow">How does it fit into the modern javascript ecosystem?</p>
+          <p>Why should we use it over other front end tools?</p>
+          <p>How to think in React</p>
+        </section>
+        <section>
+          <h2>React in 30 minutes</h2>
+          <p>What is react?</p>
+          <p>Why use react?</p>
+          <p>How does it fit into the modern javascript ecosystem?</p>
+          <p class="fragment grow">Why should we use it over other front end tools?</p>
+          <p>How to think in React</p>
+        </section>
+        <section>
+          <section>
+            <h2>React in 30 minutes</h2>
+            <p>What is react?</p>
+            <p>Why use react?</p>
+            <p>How does it fit into the modern javascript ecosystem?</p>
+            <p>Why should we use it over other front end tools?</p>
+            <p class="fragment grow">How to think in React</p>
+          </section>
+
+          <section data-background-iframe="https://react.dev/learn/thinking-in-react" data-background-interactive>
+            <div style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+              <h2>Straight from the React official docs!</h2>
+            </div>
+          </section>
+
+          <section>
+            <h2 data-id="code-title">Pretty Code</h2>
+            <pre data-id="code-animation"><code class="hljs javascript" data-trim data-line-numbers>
+              import React, { useState } from 'react';
+  
+              function Example() {
+                const [count, setCount] = useState(0);
+  
+                return (
+                  ...
+                );
+              }
+            </code></pre>
+            <p>Code syntax highlighting courtesy of <a href="https://highlightjs.org/usage/">highlight.js</a>.</p>
+          </section>
+  
+          <section>
+            <h2 data-id="code-title">With Animations</h2>
+            <pre data-id="code-animation"><code class="hljs javascript" data-trim data-line-numbers="|4,8-11|17|22-24"><script type="text/template">
+              import React, { useState } from 'react';
+  
+              function Example() {
+                const [count, setCount] = useState(0);
+  
+                return (
+                  <div>
+                    <p>You clicked {count} times</p>
+                    <button onClick={() => setCount(count + 1)}>
+                      Click me
+                    </button>
+                  </div>
+                );
+              }
+  
+              function SecondExample() {
+                const [count, setCount] = useState(0);
+  
+                return (
+                  <div>
+                    <p>You clicked {count} times</p>
+                    <button onClick={() => setCount(count + 1)}>
+                      Click me
+                    </button>
+                  </div>
+                );
+              }
+            </script></code></pre>
+          </section>
+        </section>
+
+        <section
+        data-markdown
+        data-separator="-----"
+        data-separator-vertical="---"
+      >
+        <textarea data-template>
+          # Resources
+          ## test 1 - subheading 1
+          ### test 2 - subheading 2
+          -----
+          # Resources / Links
+          - [JavaScript library - Wikipedia](https://en.wikipedia.org/wiki/JavaScript_library)
+          - [Is React a Library or a Framework? Here's Why it Matters (freecodecamp.org)](https://www.freecodecamp.org/news/is-react-a-library-or-a-framework/)
+          - [The 40 Best JavaScript Libraries and Frameworks for 2023 (kinsta.com)](https://kinsta.com/blog/javascript-libraries/#:~:text=The%20Most%20Popular%20JavaScript%20Libraries%201%20jQuery%202,Underscore.js%205%20Lodash%206%20Algolia%20Places%207%20Anime.js)
+          - [Why Is React a Library and Next.js a Framework? | Built In](https://builtin.com/software-engineering-perspectives/react-framework)
+          - [State of JavaScript (stateofjs.com)](https://stateofjs.com/en-US)          
+        </textarea>
+      </section>
       </div>
     </div>
 
@@ -73,3 +178,22 @@
     </script>
   </body>
 </html>
+
+
+<!-- possible slides -->
+
+
+<!-- 
+---
+### What is react?
+### Why use react?
+### How does it fit into the modern javascript ecosystem?
+### Why should we use it over other front end tools?
+### How to think in React 
+
+        <section data-auto-animate>
+          <section> page 1</section>
+          <section> page 2</section>
+				</section>
+
+-->
