@@ -36,43 +36,94 @@
             - What is react?
             - Why use react?
             - How does it fit into the modern javascript ecosystem?
-            - Why should we use it over other front end tools?
-            - How to think in React
+            - Comparison to other front end tools
+            - Working in React
 
           </textarea>
         </section>
 
-        <section>
-          <h2>React in 30 minutes</h2>
-          <p class="fragment grow">What is react?</p>
-          <p>Why use react?</p>
-          <p>How does it fit into the modern javascript ecosystem?</p>
-          <p>Why should we use it over other front end tools?</p>
-          <p>How to think in React</p>
+        <!-- <section>
+          <section>
+            <h2>React in 30 minutes</h2>
+            <p class="fragment grow">What is react?</p>
+            <p>Why use react?</p>
+            <p>How does it fit into the modern javascript ecosystem?</p>
+            <p>Comparison to other front end tools?</p>
+            <p>How to think in React</p>
+          </section> -->
+          <section
+          data-markdown
+          data-separator="-----"
+          data-separator-vertical="---"
+        >
+          <textarea data-template>
+            ## What is react?
+            ![A test image](assets/images/react-description.png)
+            - React is a frontend library (note: not a framework)
+            - Component based architecture
+            - Frameworks are available - Next.js, Remix, etc.
+            ---
+            ## What is react?
+            ### Unique features:
+            - One-way data binding
+            - Flexible use cases
+            - Relatively easy learning curve
+            - Virtual DOM and JSX syntax
+          </textarea>
+        </section>
+
         </section>
         <section>
-          <h2>React in 30 minutes</h2>
-          <p>What is react?</p>
-          <p class="fragment grow">Why use react?</p>
-          <p">How does it fit into the modern javascript ecosystem?</p>
-          <p">Why should we use it over other front end tools?</p>
-          <p">How to think in React</p>
+          <section>
+            <h2>React in 30 minutes</h2>
+            <p>What is react?</p>
+            <p class="fragment grow">Why use react?</p>
+            <p>How does it fit into the modern javascript ecosystem?</p>
+            <p>Comparison to other front end tools?</p>
+            <p>Working in React</p>
+          </section>
+          <section
+              data-markdown
+              data-separator="-----"
+              data-separator-vertical="---"
+          >
+            <textarea data-template>
+              ## Why use react?
+              - It's easy!
+              - Large community and support
+              - The "new" docs are amazingly well done.
+
+            </textarea>
+          </section>
+          <section data-background-iframe="https://react.dev/" data-background-interactive>
+          </section>
         </section>
+
+
         <section>
-          <h2>React in 30 minutes</h2>
-          <p>What is react?</p>
-          <p>Why use react?</p>
-          <p class="fragment grow">How does it fit into the modern javascript ecosystem?</p>
-          <p>Why should we use it over other front end tools?</p>
-          <p>How to think in React</p>
-        </section>
-        <section>
-          <h2>React in 30 minutes</h2>
-          <p>What is react?</p>
-          <p>Why use react?</p>
-          <p>How does it fit into the modern javascript ecosystem?</p>
-          <p class="fragment grow">Why should we use it over other front end tools?</p>
-          <p>How to think in React</p>
+          <section>
+            <h2>React in 30 minutes</h2>
+            <p>What is react?</p>
+            <p>Why use react?</p>
+            <p class="fragment grow">How does it fit into the modern javascript ecosystem?</p>
+            <p>Comparison to other front end tools</p>
+            <p>Working in React</p>
+          </section>
+
+          <section
+            data-markdown
+            data-separator="-----"
+            data-separator-vertical="---"
+          >
+          <textarea data-template>
+            ## How does it fit into the modern javascript ecosystem?
+            - ...well.
+            - As mentioned, there's a large community and support
+            - React Native, Bootstrap, Electronjs, and others
+            - Google is your friend
+
+          </textarea>
+          </section>
         </section>
         <section>
           <section>
@@ -80,8 +131,32 @@
             <p>What is react?</p>
             <p>Why use react?</p>
             <p>How does it fit into the modern javascript ecosystem?</p>
-            <p>Why should we use it over other front end tools?</p>
-            <p class="fragment grow">How to think in React</p>
+            <p class="fragment grow">Comparison to other front end tools</p>
+            <p>Working in React</p>
+          </section>
+
+          <section
+          data-markdown
+          data-separator="-----"
+          data-separator-vertical="---"
+          >
+          <textarea data-template>
+            ## Comparison to other front end tools
+            - others: jQuery, Angular, Vue, Svelte
+            - 
+            - Google is my friend: [React vs Angular](https://radixweb.com/blog/react-vs-angular)
+
+          </textarea>
+        </section>
+      </section>
+        <section>
+          <section>
+            <h2>React in 30 minutes</h2>
+            <p>What is react?</p>
+            <p>Why use react?</p>
+            <p>How does it fit into the modern javascript ecosystem?</p>
+            <p>Comparison to other front end tools</p>
+            <p class="fragment grow">Working in React</p>
           </section>
 
           <section data-background-iframe="https://react.dev/learn/thinking-in-react" data-background-interactive>
@@ -91,7 +166,7 @@
           </section>
 
           <section>
-            <h2 data-id="code-title">Pretty Code</h2>
+            <h2 data-id="code-title">What React code actually looks like:</h2>
             <pre data-id="code-animation"><code class="hljs javascript" data-trim data-line-numbers>
               import React, { useState } from 'react';
   
@@ -103,11 +178,11 @@
                 );
               }
             </code></pre>
-            <p>Code syntax highlighting courtesy of <a href="https://highlightjs.org/usage/">highlight.js</a>.</p>
+            <!-- <p>Code syntax highlighting courtesy of <a href="https://highlightjs.org/usage/">highlight.js</a>.</p> -->
           </section>
   
           <section>
-            <!-- <h2 data-id="code-title">With Animations</h2> -->
+            <h2 data-id="code-title">Example Component</h2>
             <pre data-id="code-animation"><code class="hljs javascript" data-trim data-line-numbers="|4,8-11|17|22-24"><script type="text/template">
               import React, { useState } from 'react';
   
@@ -138,6 +213,42 @@
               }
             </script></code></pre>
           </section>
+          <section> 
+            <h3>A Helpful tip!</h3>
+            <p> Sometimes, you will see some old versions of react created with class components. Nowadays, people only use functional components using hooks for state management. In the old days, Class components were used.</p>
+          </section>
+          <section>
+            <h2 data-id="code-title">Class Components (old school)</h2>
+            <pre data-id="code-animation"><code class="hljs javascript" data-trim data-line-numbers="|1,3,13|13-20|23-26"><script type="text/template">
+              import React from 'react';
+  
+              class Foo extends React.Component{
+                constructor( props ){
+                  super( props );
+                  this.handleClick = this.handleClick.bind(this);
+                }
+                
+                handleClick(event){
+                  // your event handling logic
+                }
+                
+                render(){
+                  return (
+                    <button type="button" 
+                    onClick={this.handleClick}>
+                    Click Me
+                    </button>
+                  );
+                }
+              }
+              
+              ReactDOM.render(
+                <Foo />,
+                document.getElementById("app")
+              );
+            </script></code></pre>
+          </section>
+
         </section>
 
         <section
@@ -146,16 +257,16 @@
         data-separator-vertical="---"
       >
         <textarea data-template>
-          # Resources
+          <!-- # Resources
           ## test 1 - subheading 1
-          ### test 2 - subheading 2
-          -----
+          ### test 2 - subheading 2 -->
           # Resources / Links
           - [JavaScript library - Wikipedia](https://en.wikipedia.org/wiki/JavaScript_library)
           - [Is React a Library or a Framework? Here's Why it Matters (freecodecamp.org)](https://www.freecodecamp.org/news/is-react-a-library-or-a-framework/)
           - [The 40 Best JavaScript Libraries and Frameworks for 2023 (kinsta.com)](https://kinsta.com/blog/javascript-libraries/#:~:text=The%20Most%20Popular%20JavaScript%20Libraries%201%20jQuery%202,Underscore.js%205%20Lodash%206%20Algolia%20Places%207%20Anime.js)
           - [Why Is React a Library and Next.js a Framework? | Built In](https://builtin.com/software-engineering-perspectives/react-framework)
-          - [State of JavaScript (stateofjs.com)](https://stateofjs.com/en-US)          
+          - [State of JavaScript (stateofjs.com)](https://stateofjs.com/en-US) 
+          - [Electronjs](https://www.electronjs.org/)  
         </textarea>
       </section>
       </div>
@@ -200,5 +311,25 @@
     section with the react logo in it
         <section>
           <svg width="100%" height="100%" viewBox="-10.5 -9.45 21 18.9" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-sm me-0 w-10 h-10 text-link dark:text-link-dark flex origin-center transition-all ease-in-out"><circle cx="0" cy="0" r="2" fill="currentColor"></circle><g stroke="currentColor" stroke-width="1" fill="none"><ellipse rx="10" ry="4.5"></ellipse><ellipse rx="10" ry="4.5" transform="rotate(60)"></ellipse><ellipse rx="10" ry="4.5" transform="rotate(120)"></ellipse></g></svg>
+        </section>
+
+----------------- a markdown section
+        <section
+          data-markdown
+          data-separator="-----"
+          data-separator-vertical="---"
+        >
+          <textarea data-template>
+            # React in 30 minutes
+            ![react logo](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/270px-React-icon.svg.png)
+            -----
+            ## React in 30 minutes
+            - What is react?
+            - Why use react?
+            - How does it fit into the modern javascript ecosystem?
+            - Why should we use it over other front end tools?
+            - How to think in React
+
+          </textarea>
         </section>
 -->
