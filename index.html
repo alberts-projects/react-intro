@@ -197,9 +197,17 @@
           </section>
 
           <section data-background-iframe="https://react.dev/learn/thinking-in-react" data-background-interactive>
-            <div style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+            <div 
+            id="theHoverBox"
+            onmouseover="document.getElementById('theHoverBox').style.visibility = 'hidden'"
+            style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;"
+            >
               <h2>Straight from the React official docs!</h2>
             </div>
+          </section>
+
+          <section data-background-iframe="https://react.dev/learn/thinking-in-react" data-background-interactive>
+            <!-- section without the floating box! -->
           </section>
 
           <section>
